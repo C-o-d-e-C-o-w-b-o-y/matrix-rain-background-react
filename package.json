@@ -1,0 +1,23 @@
+{
+  "name": "matrix-rain-react",
+  "version": "1.0.0",
+  "description": "A react container that provides a matrix rain background effect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M4FFS/matrix-rain-react-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M4FFS/matrix-rain-react-js/issues"
+  },
+  "homepage": "https://github.com/M4FFS/matrix-rain-react-js#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-plugin-react": "^7.22.0"
+  }
+}
