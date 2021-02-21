@@ -1,23 +1,42 @@
 {
-  "name": "matrix-rain-react",
-  "version": "1.0.0",
-  "description": "A react container that provides a matrix rain background effect",
-  "main": "index.js",
+  "name": "matrix-rain",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^11.0.0",
+    "@emotion/css": "^11.1.3",
+    "@emotion/react": "^11.1.5",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.0",
+    "@use-it/interval": "^1.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2",
+    "web-vitals": "^1.1.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/M4FFS/matrix-rain-react-js.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/M4FFS/matrix-rain-react-js/issues"
-  },
-  "homepage": "https://github.com/M4FFS/matrix-rain-react-js#readme",
-  "devDependencies": {
-    "eslint": "^7.19.0",
-    "eslint-plugin-react": "^7.22.0"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
